@@ -1,0 +1,76 @@
+
+body, h1, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(./images/bgm5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px black;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+    
+}
+
+
+input.form {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+
+}
+
+
+input.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input.btn:hover {
+    background-color: white;
+}
